@@ -5,21 +5,19 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "OpenXR",
-			"Enabled": true,
+			"Name": "OculusXR",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba",
 			"SupportedTargetPlatforms": [
 				"Win64",
-				"Linux",
-				"Android",
-				"VisionOS"
+				"Android"
 			]
 		},
 		{
-			"Name": "OpenXREyeTracker",
+			"Name": "OpenXRMsftHandInteraction",
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64",
-				"Linux",
 				"Android"
 			]
 		},
@@ -29,16 +27,17 @@
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Linux",
-				"Android",
-				"VisionOS"
+				"LinuxArm64",
+				"Android"
 			]
 		},
 		{
-			"Name": "OculusXR",
+			"Name": "OpenXREyeTracker",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8313d8d7e7cf4e03a33e79eb757bccba",
 			"SupportedTargetPlatforms": [
 				"Win64",
+				"Linux",
+				"LinuxArm64",
 				"Android"
 			]
 		}
@@ -47,7 +46,6 @@
 		"Android",
 		"IOS",
 		"Linux",
-		"Mac",
 		"PS4",
 		"PS5",
 		"Windows",
